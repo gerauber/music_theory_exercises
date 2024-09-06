@@ -1,0 +1,148 @@
+/* General setup */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    background-color: #a9a9a9;
+}
+
+body {
+    width: 90%;
+    min-width: 800px;
+    margin: 0 auto;
+}
+
+/* Typography */
+h1 {
+    color: black;
+}
+
+p, li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+/* Header setup */
+header {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-transform: uppercase;
+}
+
+header img {
+    display: inline-block;
+    height: 50px;
+}
+
+body > * {
+    background-color: whitesmoke;
+    padding: 1%;
+}
+
+/* Navigation setup */
+nav {
+    height: 50px;
+    display: flex;
+    background-color: whitesmoke;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 0 15px;
+}
+
+nav a {
+    font-size: 2rem;
+    height: 3rem;
+    line-height: 3rem;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+/* Sub-navigation setup */
+.sub-nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style-type: none;
+    background-color: #999999;
+    padding: 0;
+    margin: 0;
+    display: none;
+    min-width: 220px;
+}
+
+.sub-nav li {
+    border-top: 1px solid #555;
+}
+
+.sub-nav li a {
+    padding: 10px;
+    color: black;
+    text-align: left;
+}
+
+/* Show sub-nav on hover */
+.has-sub-nav:hover .sub-nav {
+    display: block;
+}
+
+/* Hover effects */
+nav a:hover, .sub-nav a:hover {
+    background-color: #cfcfcf;
+}
+
+/* Gap between nav and main */
+nav + main {
+    margin-top: 10px;
+}
+
+/* Links setup */
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+/* tables setup */
+table {
+    border-collapse: collapse;
+    width: 60%;
+    font-size: 1.4rem;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
