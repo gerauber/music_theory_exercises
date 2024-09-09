@@ -126,16 +126,23 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: black;
+    background-color: #cfcfcf;
 }
 
 /* tables setup */
-table {
+  .intervals {
     border-collapse: collapse;
     width: 60%;
     font-size: 1.4rem;
   }
+
+  .scales {
+      border-collapse: collapse;
+      width: 80%;
+      font-size: 1.4rem;
+    }
   
   td, th {
     border: 1px solid #dddddd;
@@ -146,3 +153,28 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+
+
+
+  /* setup for the submit button */
+
+  /* input[type="text"]{
+  border: 2px solid #000;
+  margin: 0 0 1em 0;
+  padding: 10px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  border: 3px solid #333;
+  background-color: #999;
+  border-radius: 5px;
+  padding: 10px 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus {
+  background-color: #333;
+} */
