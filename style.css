@@ -15,6 +15,10 @@ body {
     margin: 0 auto;
 }
 
+div {
+    display: inline-block;
+}
+
 /* Typography */
 h1 {
     color: black;
@@ -132,27 +136,40 @@ a:hover {
 }
 
 /* tables setup */
-  .intervals {
+.intervals {
     border-collapse: collapse;
     width: 60%;
     font-size: 1.4rem;
-  }
+}
 
-  .scales {
-      border-collapse: collapse;
-      width: 80%;
-      font-size: 1.4rem;
+.scales {
+    border-collapse: collapse;
+    width: 80%;
+    font-size: 1.4rem;
+}
+.scales tr th,
+.scales tr td {
+    min-width: 4em;
+    max-width: 4em;
+    text-align: center;
+}
+.scales tr th:first-child,
+.scales tr td:first-child {
+    min-width: 8em;
+    max-width: 8em;
+    text-align: left;
     }
-  
-  td, th {
+
+
+td, th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
-  }
-  
-  tr:nth-child(even) {
+}
+
+tr:nth-child(even) {
     background-color: #dddddd;
-  }
+}
 
 
 
