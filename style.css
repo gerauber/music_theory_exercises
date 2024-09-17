@@ -173,6 +173,71 @@ tr:nth-child(even) {
 
 
 
+main + footer {
+    margin-top: 10px;
+}
+
+/* Footer styling */
+footer {
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Footer quote */
+.footer-quote {
+    font-size: 1.6rem;
+    font-style: italic;
+    color: rgb(58, 58, 58);
+    margin-bottom: -10px;
+    margin-top: -10px;
+}
+
+/* Footer contact */
+.footer-contact p {
+    font-size: 1.4rem;
+    color: black;
+    margin: 3px;
+}
+
+/* Footer contact link */
+.footer-contact a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer copyright */
+.footer-copyright p {
+    font-size: 1.2rem;
+    color: #aaa;
+    margin: 0;
+}
+
+/* Adjust padding and spacing for smaller screens */
+@media (max-width: 768px) {
+    footer {
+        padding: 30px 10px;
+    }
+
+    .footer-quote,
+    .footer-contact p,
+    .footer-copyright p {
+        font-size: 1.4rem;
+    }
+}
+
+
+
+
 
   /* setup for the submit button */
 

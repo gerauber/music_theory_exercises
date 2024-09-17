@@ -9,7 +9,7 @@
 <body>
     <header>
         <h1><a href="index.php" style="text-decoration:none;">Music Theory Exercises</a></h1>
-        <img src="pictures/logo.svg" alt="Gege logo">
+        <a href="https://github.com/gerauber"><img src="pictures/logo.svg" alt="Gege logo"></a>
     </header>
 
     <nav>
@@ -113,4 +113,15 @@
         </form> -->
     </main>
 </body>
+<footer>
+    <div class="footer-quote">
+        <p>"Building harmony, one scale at a time."</p>
+    </div>
+    <div class="footer-contact">
+        <p>Contact: <a href="mailto:g.raeuber@syntaxerror.ch">g.raeuber@syntaxerror.ch</a></p>
+    </div>
+    <div class="footer-copyright">
+        <p>&copy; 2024 Music Theory Exercises. All rights reserved.</p>
+    </div>
+</footer>
 </html>
