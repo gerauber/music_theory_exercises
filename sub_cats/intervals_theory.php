@@ -1,3 +1,6 @@
+<h2> Some theory</h2>
+
+<p> Intervals are the distances between two notes, which can be harmonic (played together) or melodic (played in sequence). </p> 
 
 <p>There are different types and qualities of intervals:
 <ul>
@@ -170,4 +173,3 @@
 <img src="../pictures/intervals_mel_inc.svg" alt="Melodic intervals" height="90">
 
 <p>Side note: An enharmonic is when two different notes sound the same.</p>
-

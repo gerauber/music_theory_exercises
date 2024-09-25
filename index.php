@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Theory Exercises</title>
+    <link rel="icon" href="../../figures/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -15,37 +16,42 @@
     <nav>
         <ul class="main-nav">
             <li class="has-sub-nav">
-              <a href="index.php?page=intervals">Intervals</a>
+              Intervals
               <ul class="sub-nav">
                   <li><a href="index.php?page=intervals_theory">Interval Theory</a></li>
+                  <li><a href="index.php?page=intervals">Intervals Training</a></li>
                   <li><a href="index.php?page=intervals_exercise">Interval Exercises</a></li>
               </ul>
             </li>
             <li class="has-sub-nav">
-                <a href="index.php?page=chords">Chords</a>
-                <ul class="sub-nav">
-                    <li><a href="index.php?page=chords_theory">Chords Theory</a></li>
-                    <li><a href="index.php?page=chords_exercise">Chords Exercises</a></li>
-                </ul>
-            </li>
+              Chords
+              <ul class="sub-nav">
+                  <li><a href="index.php?page=chords_theory">Chords Theory</a></li>
+                  <li><a href="index.php?page=chords">Chords Training</a></li>
+                  <li><a href="index.php?page=chords_exercise">Chords Exercises</a></li>
+              </ul>
+              </li>
             <li class="has-sub-nav">
-              <a href="index.php?page=cadences">Cadences</a>
+              Cadences
               <ul class="sub-nav">
                   <li><a href="index.php?page=cadences_theory">Cadences Theory</a></li>
+                  <li><a href="index.php?page=cadences">Cadences Training</a></li>
                   <li><a href="index.php?page=cadences_exercise">Cadences Exercises</a></li>
               </ul>
             </li> 
             <li class="has-sub-nav">
-              <a href="index.php?page=scales">Scales</a>
+              Scales
               <ul class="sub-nav">
                   <li><a href="index.php?page=scales_theory">Scales Theory</a></li>
+                  <li><a href="index.php?page=scales">Scales Training</a></li>
                   <li><a href="index.php?page=scales_exercise">Scales Exercises</a></li>
               </ul>
             </li>
             <li class="has-sub-nav">
-              <a href="index.php?page=rhythms">Rhythms</a>
+              Rhythms
               <ul class="sub-nav">
                   <li><a href="index.php?page=rhythms_theory">Rhythms Theory</a></li>
+                  <li><a href="index.php?page=rhythms">Rhythms Training</a></li>
                   <li><a href="index.php?page=rhythms_exercise">Rhythms Exercises</a></li>
               </ul>
             </li>

@@ -42,20 +42,20 @@
 <table class="scales">
 <tr>
     <th>Scales</th>
-    <th>I ->  II</th>
-    <th>II -> III</th>
-    <th>III -> IV</th>
-    <th>IV -> V</th>
-    <th>V -> VI</th>
-    <th>VI -> VII</th>
-    <th>VII -> VIII</th>
-    <th>VIII -> VII</th>
-    <th>VII -> VI</th>
-    <th>VI -> V</th>
-    <th>V -> IV</th>
-    <th>IV -> III</th>
-    <th>III -> II</th>
-    <th>II ->  I</th>
+    <th>I&rarr;II</th>
+    <th>II&rarr;III</th>
+    <th>III&rarr;IV</th>
+    <th>IV&rarr;V</th>
+    <th>V&rarr;VI</th>
+    <th>VI&rarr;VII</th>
+    <th>VII&rarr;VIII</th>
+    <th>VIII&rarr;VII</th>
+    <th>VII&rarr;VI</th>
+    <th>VI&rarr;V</th>
+    <th>V&rarr;IV</th>
+    <th>IV&rarr;III</th>
+    <th>III&rarr;II</th>
+    <th>II&rarr;I</th>
 </tr>
 <tr>
     <td>Major</td>
