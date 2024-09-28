@@ -11,6 +11,8 @@ It is possible to press buttons to hear sounds, or to answer questions in the ex
 
 Some improvements will be added in the near future, but this first version already works perfectly fine.
 
+Sounds are coming from GarageBand, and illustrations were produced using MuseScore.
+
 Version 1.0
 
 
