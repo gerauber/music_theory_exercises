@@ -1,4 +1,4 @@
-<h2> Some theory</h2>
+<h2> Intervals theory</h2>
 
 <p> Intervals are the distances between two notes, which can be harmonic (played together) or melodic (played in sequence). </p> 
 

@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Theory Exercises</title>
-    <link rel="icon" href="../../figures/logo.svg" type="image/x-icon" />
+    <!-- <link rel="icon" href="../../figures/logo.svg" type="image/x-icon" /> -->
+    <link rel="icon" href="pictures/logo.svg" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -19,7 +20,7 @@
               Intervals
               <ul class="sub-nav">
                   <li><a href="index.php?page=intervals_theory">Interval Theory</a></li>
-                  <li><a href="index.php?page=intervals">Intervals Training</a></li>
+                  <li><a href="index.php?page=intervals_training">Intervals Training</a></li>
                   <li><a href="index.php?page=intervals_exercise">Interval Exercises</a></li>
               </ul>
             </li>
@@ -27,7 +28,7 @@
               Chords
               <ul class="sub-nav">
                   <li><a href="index.php?page=chords_theory">Chords Theory</a></li>
-                  <li><a href="index.php?page=chords">Chords Training</a></li>
+                  <li><a href="index.php?page=chords_training">Chords Training</a></li>
                   <li><a href="index.php?page=chords_exercise">Chords Exercises</a></li>
               </ul>
               </li>
@@ -35,7 +36,7 @@
               Cadences
               <ul class="sub-nav">
                   <li><a href="index.php?page=cadences_theory">Cadences Theory</a></li>
-                  <li><a href="index.php?page=cadences">Cadences Training</a></li>
+                  <li><a href="index.php?page=cadences_training">Cadences Training</a></li>
                   <li><a href="index.php?page=cadences_exercise">Cadences Exercises</a></li>
               </ul>
             </li> 
@@ -43,7 +44,7 @@
               Scales
               <ul class="sub-nav">
                   <li><a href="index.php?page=scales_theory">Scales Theory</a></li>
-                  <li><a href="index.php?page=scales">Scales Training</a></li>
+                  <li><a href="index.php?page=scales_training">Scales Training</a></li>
                   <li><a href="index.php?page=scales_exercise">Scales Exercises</a></li>
               </ul>
             </li>
@@ -51,7 +52,7 @@
               Rhythms
               <ul class="sub-nav">
                   <li><a href="index.php?page=rhythms_theory">Rhythms Theory</a></li>
-                  <li><a href="index.php?page=rhythms">Rhythms Training</a></li>
+                  <li><a href="index.php?page=rhythms_training">Rhythms Training</a></li>
                   <li><a href="index.php?page=rhythms_exercise">Rhythms Exercises</a></li>
               </ul>
             </li>
@@ -65,32 +66,32 @@
             $page = $_GET['page'];
 
             // Display content based on the value of 'page'
-            if ($page == 'intervals') {
-                include('sub_cats/intervals.php');
+            if ($page == 'intervals_training') {
+                include('sub_cats/intervals_training.php');
             } elseif ($page == 'intervals_theory') {
                 include('sub_cats/intervals_theory.php');
             } elseif ($page == 'intervals_exercise') {
                 include('sub_cats/intervals_exercise.php');
-            } elseif ($page == 'chords') {
-                include('sub_cats/chords.php');
+            } elseif ($page == 'chords_training') {
+                include('sub_cats/chords_training.php');
             } elseif ($page == 'chords_theory') {
                 include('sub_cats/chords_theory.php');
             } elseif ($page == 'chords_exercise') {
                 include('sub_cats/chords_exercise.php');
-            } elseif ($page == 'cadences') {
-                include('sub_cats/cadences.php');
+            } elseif ($page == 'cadences_training') {
+                include('sub_cats/cadences_training.php');
             } elseif ($page == 'cadences_theory') {
                 include('sub_cats/cadences_theory.php');
             } elseif ($page == 'cadences_exercise') {
                 include('sub_cats/cadences_exercise.php');
-            } elseif ($page == 'scales') {
-                include('sub_cats/scales.php');
+            } elseif ($page == 'scales_training') {
+                include('sub_cats/scales_training.php');
             } elseif ($page == 'scales_theory') {
                 include('sub_cats/scales_theory.php');
             } elseif ($page == 'scales_exercise') {
                 include('sub_cats/scales_exercise.php');
-            } elseif ($page == 'rhythms') {
-                include('sub_cats/rhythms.php');
+            } elseif ($page == 'rhythms_training') {
+                include('sub_cats/rhythms_training.php');
             } elseif ($page == 'rhythms_theory') {
                 include('sub_cats/rhythms_theory.php');
             } elseif ($page == 'rhythms_exercise') {

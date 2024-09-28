@@ -1,3 +1,6 @@
+<h2> Cadences theory</h2>
+
+<p> Cadences are chord progressions that signal the end of a musical phrase, creating a sense of resolution or pause.  </p>
 
 <p>There are several cadences using different degrees of scales:</p>
 

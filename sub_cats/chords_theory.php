@@ -1,3 +1,6 @@
+<h2> Chords theory</h2>
+
+<p> Chords are combinations of notes played together, forming the harmonic foundation of music.  </p>
 
 <p>There are several types of chords with three or four notes, and several inversions:</p>
 

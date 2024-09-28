@@ -1,3 +1,6 @@
+<h2> Rhythms theory</h2>
+
+<p> Rhythms are the patterns of sound duration in music, dictated by note values and time signatures. </p>
 
 <p>Rhythm is categorized mainly into binary and ternary rhythms.</p>
 

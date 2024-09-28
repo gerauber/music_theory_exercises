@@ -1,5 +1,7 @@
-<h2> Some exercises</h2>
+<h2> Intervals exercises</h2>
 
+
+<hr>
 <!-- Main buttons-->
 <button id="playButton">Play random intervals</button>
 <button id="replayButton">Replay interval</button> 
@@ -141,3 +143,5 @@
         }
     });
 </script>
+
+<hr>

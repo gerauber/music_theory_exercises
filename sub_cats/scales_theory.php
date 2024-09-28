@@ -1,5 +1,7 @@
+<h2> Scales theory</h2>
 
 
+<p> Scales are sequences of notes ordered by pitch, forming the basis of melodies and harmonies.  </p>
 
 <p>Degrees of scales:</p>
 
