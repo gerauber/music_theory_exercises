@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <h1><a href="index.php" style="text-decoration:none;">Music Theory Exercises</a></h1>
+        <h1><a href="index.php?page=home" style="text-decoration:none;">Music Theory Exercises</a></h1>
         <a href="https://github.com/gerauber"><img src="pictures/logo.svg" alt="Gege logo"></a>
     </header>
 
@@ -66,7 +66,9 @@
             $page = $_GET['page'];
 
             // Display content based on the value of 'page'
-            if ($page == 'intervals_training') {
+            if ($page == 'home') {
+                include('home.php');
+            } elseif ($page == 'intervals_training') {
                 include('sub_cats/intervals_training.php');
             } elseif ($page == 'intervals_theory') {
                 include('sub_cats/intervals_theory.php');
